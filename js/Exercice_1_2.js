@@ -1,9 +1,8 @@
-let Nom = 'Doe';
+let Nom = 'Nom : Doe';
 
-let Prenom = 'John';
+let Prenom = 'Prenom : John';
 
-let Ville = 'New-York';
+let Ville = 'Ville : New-York';
 
-let message = 'Nom :' + 'Prenom :' + 'Ville'; 
 
-console.log (Nom + Prenom + Ville)
+alert (Nom + '\n' + Prenom + '\n' + Ville)
