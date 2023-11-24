@@ -1,18 +1,15 @@
-let userWord = prompt('Saisissez un mot');
+//let userWord = prompt('Saisissez un mot');
 
 //console.log(userWord);
 
-const a = "J";
-const b = "a";
-const c = "v";
-const d = "S";
-const e = "c";
-const f = "r";
-const g = "i";
-const h = "p";
-const i = "t";
+let userWord;
+let message = "";
 
-const z = "\n";
+console.log(userWord[5]);
 
-const userWord = a + "\n" + b + "\n" + c + "\n" + b + "\n" + d + "\n" + e + "\n" + f + "\n" + g + "\n" + h + "\n" + i
+for (let lettre = 0; lettre <userWord.length; lettre +=1){
+    message += userWord[lettre] + "\n";
+
+}
+console.log (message);
 
