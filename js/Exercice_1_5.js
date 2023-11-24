@@ -1,16 +1,17 @@
-let nombre1 = prompt("entrez un premier nombre");
-let nombre2 = prompt("entrez un second nombre");
+let nombre1 = prompt("entrez un premier nombre à virgule");
+let nombre2 = prompt("entrez un second nombre à virgule");
 
-function multiplication (a, b){
-    return (a * b)
+//console.log(nombre1)
+//console.log(nombre2)
+
+//console.log(Math.trunc(nombre1));
+
+//let nombre1 - Math.trunc(nombre1);
+
+//alert (nombre1 * nombre2);
+
+function exo5(nombreAVirgule1, nombreAVirgule2){
+    Math.trunc(nombreAVirgule1)* nombre nombreAVirgule2;
 }
 
-console.log (multiplication (2.10, 3.30));
-
-
-
-let nombre1 = Math.trunc(2.10);
-let nombre2 = Math.trunc(3.20);
-
-console.log('Math.trunc'(6.93));
-
+alert (exo5(nombre1, nombre2)),
