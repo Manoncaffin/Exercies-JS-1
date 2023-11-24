@@ -1,6 +1,4 @@
-let nom = prompt("entrez votre année de naissance");
-
-const age = 32;
+let nom = prompt("Saisissez votre âge");
 
 if (age > 18){
     console.log('Vous êtes majeur')

@@ -14,4 +14,4 @@ function exo5(nombreAVirgule1, nombreAVirgule2){
     Math.trunc(nombreAVirgule1)* nombre nombreAVirgule2;
 }
 
-alert (exo5(nombre1, nombre2)),
+alert (exo5(nombre1, nombre2));
