@@ -1,8 +1,4 @@
-//let userWord = prompt('Saisissez un mot');
-
-//console.log(userWord);
-
-let userWord;
+let userWord= prompt('Saisissez un mot');
 let message = "";
 
 console.log(userWord[5]);
