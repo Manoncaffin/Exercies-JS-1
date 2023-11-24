@@ -1,9 +1,9 @@
 let nom = prompt("Saisissez votre âge");
 
-if (age > 18){
-    console.log('Vous êtes majeur')
+if (age < 18){
+    alert('Vous êtes mineur')
 }
 
 else{
-    console.log('Vous êtes mineur')
+    alert('Vous êtes majeur')
 }
