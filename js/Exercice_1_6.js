@@ -3,4 +3,4 @@ function division (a,b){
 }
 
 
-console.log(6 % 7);
+console.log(division(6,7));
